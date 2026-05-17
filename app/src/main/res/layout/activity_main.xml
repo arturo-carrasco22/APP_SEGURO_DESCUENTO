@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/txtApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellidos"
+            android:inputType="textNoSuggestions"
+            android:importantForAutofill="no"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/txtNombres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombres"
+            android:inputType="textNoSuggestions"
+            android:importantForAutofill="no"
+            android:autofillHints="" />
+
+        <RadioGroup
+            android:id="@+id/radioGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/rbMasculino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masculino" />
+
+            <RadioButton
+                android:id="@+id/rbFemenino"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Femenino" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/txtSueldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sueldo básico"
+            android:inputType="numberDecimal"
+            android:importantForAutofill="no"
+            android:autofillHints="" />
+
+        <RadioGroup
+            android:id="@+id/radioSeguro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <RadioButton
+                android:id="@+id/rbAFP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AFP" />
+
+            <RadioButton
+                android:id="@+id/rbONP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ONP" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Trabajador"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnMostrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mostrar Datos"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+</ScrollView>

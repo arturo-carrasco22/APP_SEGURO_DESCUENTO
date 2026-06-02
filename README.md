@@ -34,7 +34,11 @@ Esta aplicación permite registrar empleados con sus datos básicos y calcular d
 
 
 ## Capturas de pantalla
-
+Añadir trabajador:
+<img width="505" height="745" alt="image" src="https://github.com/user-attachments/assets/33e30068-e2d5-479d-89a4-4a9fe8be34c1" />
+Mostrar datos:
+<img width="573" height="1254" alt="image" src="https://github.com/user-attachments/assets/8203cca5-7f04-4500-86bd-7abe8dc6d172" />
+<img width="563" height="1260" alt="image" src="https://github.com/user-attachments/assets/6199d633-52b7-45f6-8076-975a1226fcd2" />
 
 ---
 
